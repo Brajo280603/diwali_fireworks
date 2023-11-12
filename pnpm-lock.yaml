@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  '@fireworks-js/svelte':
+    specifier: ^2.10.7
+    version: 2.10.7
+
 devDependencies:
   '@sveltejs/adapter-auto':
     specifier: ^2.0.0
@@ -231,6 +236,12 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
+  /@fireworks-js/svelte@2.10.7:
+    resolution: {integrity: sha512-TXAQCihGWyWGiRoF8E9WOiBT/tRhhDznvOEdjIAGBEIOYRiKwbt1OdDGTPU9s4oa/tIkjUOLuQ3dqaDnOjcuRw==}
+    dependencies:
+      fireworks-js: 2.10.7
+    dev: false
+
   /@jridgewell/gen-mapping@0.3.3:
     resolution: {integrity: sha512-HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==}
     engines: {node: '>=6.0.0'}
@@ -452,6 +463,10 @@ packages:
     dependencies:
       '@types/estree': 1.0.5
     dev: true
+
+  /fireworks-js@2.10.7:
+    resolution: {integrity: sha512-FyRNiqlgu9ZeFCjfN0UiGUlj5dUWNYLyFaWN/Q8sOMf0E+KGA4dMROaBZpCtym85fChgCspoa3jHoLTRZiy74A==}
+    dev: false
 
   /fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}

@@ -94,7 +94,7 @@
 
 
     #diya-img{
-        /* width:100%; */
+        max-width:100%;
         /* position: absolute; */
         /* top: -25%; */
         /* translate: -50% 50%; */

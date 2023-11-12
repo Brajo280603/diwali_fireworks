@@ -8,6 +8,9 @@ dependencies:
   '@fireworks-js/svelte':
     specifier: ^2.10.7
     version: 2.10.7
+  fireworks-js:
+    specifier: ^2.10.7
+    version: 2.10.7
 
 devDependencies:
   '@sveltejs/adapter-auto':

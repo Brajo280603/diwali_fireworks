@@ -15,6 +15,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fireworks-js/svelte": "^2.10.7"
+		"@fireworks-js/svelte": "^2.10.7",
+		"fireworks-js": "^2.10.7"
 	}
 }
